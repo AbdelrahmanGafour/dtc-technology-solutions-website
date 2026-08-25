@@ -1,0 +1,16 @@
+{
+  "name": "dtc-technology-solutions-website",
+  "version": "1.0.0",
+  "description": "Marketing website for DTC Technology Solutions — static HTML/CSS/JS, animated with GSAP.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 8080"
+  },
+  "keywords": ["dtc", "technology", "website"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.15.0"
+  }
+}
