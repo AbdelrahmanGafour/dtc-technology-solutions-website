@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
       <div class="footer-bottom">
         <span>&copy; ${new Date().getFullYear()} DTC Technology Solutions. Part of El Eyad Construction Group, KSA. All rights reserved.</span>
-        <span>Designed &amp; built with <i class="fa-solid fa-heart" style="color:var(--gold-500);"></i> for a connected future.</span>
+        <span>Designed &amp; Developed with <i class="fa-solid fa-heart" style="color:var(--gold-500);"></i> by Ammar Marketing.</span>
       </div>
     </div>
   `;
