@@ -23,6 +23,16 @@
     "friends-construction.webp": "cutout",
     "ministry-of-health.svg": "unchanged (clipped crop)",
     "ministry-of-justice.svg": "unchanged (clipped crop)",
-    "armed-forces-engineering.svg": "unchanged (clipped crop)"
+    "armed-forces-engineering.svg": "unchanged (clipped crop)",
+    "fortinet.svg": "https://commons.wikimedia.org/wiki/File:Fortinet_logo.svg",
+    "dell.svg": "https://commons.wikimedia.org/wiki/File:Dell_logo_2016.svg",
+    "microsoft.svg": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+    "aws.svg": "https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg",
+    "promise-technology.svg": "official: https://www.promise.com (white text recoloured dark)",
+    "absen.svg": "official: https://www.absen.com (white text recoloured dark)",
+    "zkteco.webp": "official: https://zkteco.in (white text recoloured dark)",
+    "digifort.svg": "official: https://www.digifort.com",
+    "toa.webp": "official: https://www.toa-global.com",
+    "crestron.webp": "official: https://www.crestron.com"
   }
 }
