@@ -379,6 +379,28 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .client-logo img{ height:110px; }
 }
 
+/* ---------- Vendor ecosystem (logo wall) ---------- */
+.vendor-ecosystem{ margin-top:var(--space-8); }
+.vendor-ecosystem > .section-head{ margin-bottom:var(--space-5); }
+.vendor-group + .vendor-group{ margin-top:var(--space-5); }
+.vendor-group h3{
+  font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold-500);
+  margin-bottom:var(--space-3);
+}
+.vendor-grid{ display:grid; grid-template-columns:repeat(8,1fr); gap:.75rem; }
+@media(max-width:1100px){ .vendor-grid{ grid-template-columns:repeat(6,1fr);} }
+@media(max-width:760px){ .vendor-grid{ grid-template-columns:repeat(4,1fr);} }
+@media(max-width:520px){ .vendor-grid{ grid-template-columns:repeat(3,1fr); gap:.5rem; } }
+.vendor-tile{
+  display:flex; align-items:center; justify-content:center; height:76px; padding:.7rem .8rem;
+  background:var(--white); border:1px solid var(--border-gray); border-radius:var(--radius-md);
+  transition:transform var(--transition), box-shadow var(--transition); min-width:0;
+}
+.vendor-tile:hover{ transform:translateY(-3px); box-shadow:0 8px 20px rgba(10,25,45,.08); }
+.vendor-tile img{ width:100%; height:100%; object-fit:contain; }
+.vendor-tile.is-text{ font-weight:700; font-size:.85rem; color:var(--navy-800); text-align:center; line-height:1.2; }
+@media(max-width:520px){ .vendor-tile{ height:60px; padding:.5rem; } .vendor-tile.is-text{ font-size:.75rem; } }
+
 /* ---------- CTA banner ---------- */
 .cta-banner{ position:relative; padding:var(--space-9) 0; overflow:hidden; }
 .cta-banner .hero-bg::after{ background:var(--gradient-overlay); }
