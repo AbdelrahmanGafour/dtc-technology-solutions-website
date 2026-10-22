@@ -164,9 +164,15 @@
   /* ---------- Infinite marquee ---------- */
   document.querySelectorAll('[data-marquee]').forEach(track => {
     if (!window.gsap || reduceMotion) return;
-    // duplicate content for seamless loop
-    track.innerHTML += track.innerHTML;
-    const totalWidth = track.scrollWidth / 2;
+    // Keep the original logos accessible and hide the repeated set from screen readers.
+    const firstItem = track.firstElementChild;
+    const copies = Array.from(track.children, item => item.cloneNode(true));
+    copies.forEach(item => {
+      item.setAttribute('aria-hidden', 'true');
+      track.appendChild(item);
+    });
+    // Include the gap between sets so the loop restarts at the same logo position.
+    const totalWidth = copies[0].offsetLeft - firstItem.offsetLeft;
     gsap.to(track, {
       x: -totalWidth, duration: Math.max(20, totalWidth / 60), ease:'none', repeat:-1
     });

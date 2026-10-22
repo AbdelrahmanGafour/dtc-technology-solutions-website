@@ -1,0 +1,267 @@
+{
+  "source": "DTC-COMPANY-PROFILE_compressed.pdf",
+  "description": "Logo crops from the supplied company profile; rectangles are PDF page points.",
+  "partners": [
+    {
+      "file": "huawei.webp",
+      "name": "Huawei",
+      "page": 18,
+      "rect": [
+        185,
+        145,
+        335,
+        287
+      ]
+    },
+    {
+      "file": "cisco.webp",
+      "name": "Cisco",
+      "page": 18,
+      "rect": [
+        180,
+        303,
+        337,
+        394
+      ]
+    },
+    {
+      "file": "avaya.webp",
+      "name": "Avaya",
+      "page": 18,
+      "rect": [
+        1030,
+        169,
+        1318,
+        253
+      ]
+    },
+    {
+      "file": "dahua.webp",
+      "name": "Dahua Technology",
+      "page": 18,
+      "rect": [
+        150,
+        471,
+        342,
+        549
+      ]
+    },
+    {
+      "file": "bosch.webp",
+      "name": "Bosch",
+      "page": 18,
+      "rect": [
+        1080,
+        472,
+        1306,
+        542
+      ]
+    },
+    {
+      "file": "schneider-electric.webp",
+      "name": "Schneider Electric",
+      "page": 18,
+      "rect": [
+        815,
+        478,
+        1041,
+        563
+      ]
+    },
+    {
+      "file": "legrand.webp",
+      "name": "Legrand",
+      "page": 18,
+      "rect": [
+        386,
+        484,
+        602,
+        553
+      ]
+    },
+    {
+      "file": "hanwha-vision.webp",
+      "name": "Hanwha Vision",
+      "page": 18,
+      "rect": [
+        639,
+        449,
+        776,
+        560
+      ]
+    },
+    {
+      "file": "simplex.webp",
+      "name": "Simplex",
+      "page": 18,
+      "rect": [
+        1078,
+        314,
+        1302,
+        370
+      ]
+    },
+    {
+      "file": "commscope.webp",
+      "name": "CommScope",
+      "page": 18,
+      "rect": [
+        146,
+        650,
+        427,
+        708
+      ]
+    },
+    {
+      "file": "grandstream.webp",
+      "name": "Grandstream",
+      "page": 18,
+      "rect": [
+        500,
+        602,
+        704,
+        730
+      ]
+    },
+    {
+      "file": "elsewedy-cables.webp",
+      "name": "Elsewedy Cables",
+      "page": 18,
+      "rect": [
+        779,
+        627,
+        985,
+        731
+      ]
+    },
+    {
+      "file": "eaton.webp",
+      "name": "Eaton",
+      "page": 18,
+      "rect": [
+        1076,
+        634,
+        1313,
+        715
+      ]
+    },
+    {
+      "file": "ruijie.webp",
+      "name": "Ruijie",
+      "page": 18,
+      "rect": [
+        384,
+        305,
+        593,
+        381
+      ]
+    },
+    {
+      "file": "prolink.webp",
+      "name": "Prolink",
+      "page": 18,
+      "rect": [
+        851,
+        304,
+        1025,
+        392
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "file": "ministry-of-housing.webp",
+      "name": "Ministry of Housing",
+      "page": 19,
+      "rect": [
+        207,
+        383,
+        447,
+        607
+      ],
+      "display_file": "ministry-of-housing.svg"
+    },
+    {
+      "file": "ministry-of-health.webp",
+      "name": "Ministry of Health & Population",
+      "page": 19,
+      "rect": [
+        589,
+        180,
+        806,
+        435
+      ],
+      "display_file": "ministry-of-health.svg"
+    },
+    {
+      "file": "egyptian-space-agency.webp",
+      "name": "Egyptian Space Agency",
+      "page": 19,
+      "rect": [
+        576,
+        420,
+        829,
+        600
+      ],
+      "display_file": "egyptian-space-agency.svg"
+    },
+    {
+      "file": "national-roads-authority.webp",
+      "name": "National Roads Authority",
+      "page": 19,
+      "rect": [
+        1097,
+        202,
+        1344,
+        443
+      ]
+    },
+    {
+      "file": "ministry-of-justice.webp",
+      "name": "Ministry of Justice",
+      "page": 19,
+      "rect": [
+        96,
+        228,
+        310,
+        437
+      ],
+      "display_file": "ministry-of-justice.svg"
+    },
+    {
+      "file": "armed-forces-engineering.webp",
+      "name": "Armed Forces Engineering Authority",
+      "page": 19,
+      "rect": [
+        340,
+        220,
+        561,
+        435
+      ],
+      "display_file": "armed-forces-engineering.svg"
+    },
+    {
+      "file": "nspo.webp",
+      "name": "NSPO",
+      "page": 19,
+      "rect": [
+        887,
+        468,
+        1168,
+        605
+      ]
+    },
+    {
+      "file": "friends-construction.webp",
+      "name": "Friends Construction & Development",
+      "page": 19,
+      "rect": [
+        730,
+        639,
+        905,
+        748
+      ]
+    }
+  ],
+  "clipping": "SVG frames exclude neighboring logos while keeping the original PDF raster crops embedded unchanged."
+}
