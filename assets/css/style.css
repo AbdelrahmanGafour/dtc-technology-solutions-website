@@ -223,6 +223,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .hero-stats{
   display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-5);
   border-top:1px solid rgba(255,255,255,.15); padding-top:var(--space-6); max-width:900px;
+  text-align:center; justify-items:center;
 }
 .hero-stats .stat-num{ font-family:var(--font-display); font-size:2rem; color:var(--gold-300); font-weight:700; }
 .hero-stats .stat-label{ font-size:.8rem; color:var(--fog); text-transform:uppercase; letter-spacing:1px; margin-top:.3rem; }
