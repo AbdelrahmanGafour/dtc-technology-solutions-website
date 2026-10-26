@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="assets/images/dtc-logo-white.png" alt="DTC Technology Solutions">
+          <img src="assets/images/dtc-logo-white.webp" alt="DTC Technology Solutions">
           <p>Your trusted partner for end-to-end technology infrastructure — networking, cloud, data centers, security, fire &amp; life safety and audio-visual systems.</p>
           <div class="social-row">
             <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>

@@ -1,0 +1,10 @@
+{
+  "description": "Stock photos are from Pexels (free to use, no attribution required). Project photos are DTC's own and were only converted to WebP.",
+  "pexels_photo_ids": {
+    "hero-bg.webp": 17489157, "about-hero.webp": 5354506, "services-hero.webp": 4864249,
+    "contact-hero.webp": 6804612, "cta-bg.webp": 12932191,
+    "service-network.webp": 4373997, "service-cloud.webp": 373543, "service-datacenter.webp": 5480781,
+    "service-security.webp": 430208, "service-fire.webp": 39183052, "service-audio-visual.webp": 6949367,
+    "service-low-current.webp": 5658532
+  }
+}

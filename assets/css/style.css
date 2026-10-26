@@ -243,9 +243,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .marquee-track{ display:flex; gap:2rem; width:max-content; }
 .marquee-item{
   display:flex; align-items:center; justify-content:center; flex:0 0 180px;
-  height:96px; padding:8px; border-radius:var(--radius-md); background:var(--white); overflow:hidden;
+  height:96px; padding:8px; border-radius:var(--radius-md); background:transparent; overflow:hidden;
+  transition:background var(--transition);
 }
-.marquee-item img{ width:160px; height:80px; object-fit:contain; border-radius:6px; }
+.marquee-item img{
+  width:160px; height:80px; object-fit:contain; border-radius:6px;
+  filter:brightness(0) invert(1); opacity:.75; transition:filter var(--transition), opacity var(--transition);
+}
+.marquee-item:hover{ background:rgba(255,255,255,.96); }
+.marquee-item:hover img{ filter:none; opacity:1; }
 @media(prefers-reduced-motion:reduce){
   .marquee-section{ overflow-x:auto; }
 }
